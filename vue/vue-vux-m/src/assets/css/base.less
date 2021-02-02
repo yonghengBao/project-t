@@ -1,0 +1,54 @@
+/**
+公共样式
+**/
+body, div, dl, dt, dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,img,fieldset,input,button,textarea,p,blockquote，th,td,header, nav, section,aside,footer{
+  margin:0;padding:0;box-sizing: border-box;
+}
+ol,ul {list-style:none;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+html {
+  height: 100%;
+}
+body{
+  height: 100%;
+  font-family: 'Microsoft YaHei';
+  line-height: inherit!important;
+  font-size: 0;
+}
+.clear:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+.clear-top:before{
+  content:"";
+  display:table;
+}
+.left{float:left;}
+.right{float:right}
+
+
+/*省略号*/
+.ellipsis{
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.flex-center{
+  display: flex;
+  align-items: center;
+}
+.flex-between{
+  display: flex;
+  justify-content: space-between;
+}
+.flex-around{
+  display: flex;
+  justify-content: space-around;
+}
+.flex-around-center{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
