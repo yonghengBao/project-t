@@ -1,0 +1,23 @@
+{
+  "name": "house",
+  "version": "0.0.1",
+  "author": "Ionic Framework",
+  "homepage": "http://ionicframework.com/",
+  "private": true,
+  "scripts": {
+    "css": "postcss css/ --use autoprefixer -d build/"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^9.7.6",
+    "postcss": "^7.0.30"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8",
+    "iOS >= 6",
+    "Android > 4.1",
+    "Firefox > 20"
+  ]
+}
